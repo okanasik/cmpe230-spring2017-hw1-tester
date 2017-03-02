@@ -1,0 +1,5 @@
+var1 = 45754
+var2 =6464
+var3=48751
+var6 = ((var2-(var1*78)/var2)*1023+var3)/var1)
+var6

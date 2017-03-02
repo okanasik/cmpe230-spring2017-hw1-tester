@@ -1,0 +1,6 @@
+var1 = 30
+var2 = 17
+var3 = (var1 + 10) * 2
+var3
+var2 = var2/(var3 - var2) + 18
+var2
