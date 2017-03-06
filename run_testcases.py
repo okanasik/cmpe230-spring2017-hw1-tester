@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import os
 import sys
 import shlex
@@ -97,7 +95,7 @@ def main():
             cmd = 'make run ARGS="'+testcase_files[i]+'"'
             execute_cmd(cmd)
             ir_code_file = testcase_files[i][:testcase_files[i].find('.')]+'.ll'
-            cmd = 'lli ' + ir_code_file
+            cmd = 'lli-3.5 ' + ir_code_file
             [output, err] = execute_cmd(cmd)
             if (len(err) > 0):
                 print('*****---+++ERR:' + err)
