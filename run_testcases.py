@@ -104,7 +104,11 @@ def main():
             for line in output_fp:
                 line = line.strip("\n")
                 if line != "":
-                    true_outputs.append(int(line))
+                    values = line.split(' ')
+                    true_output_line = []
+                    for myval in values:
+                        true_output_line.append(int(myval))
+                    true_outputs.append(true_output_line)
             
             # create integers from users outputs
             student_output_splits = output.split("\n")
@@ -119,10 +123,16 @@ def main():
             else:
                 correct_count = 0
                 for i in range(len(true_outputs)):
-                    if (true_outputs[i] != student_outputs[i]):
-                        print('*****---+++ERROR: output missmatch ' + str(true_outputs[i]) + ' != ' + str(student_outputs[i]))
-                    else:
+                    student_value = student_outputs[i]
+                    matched = False
+                    for true_val in true_outputs[i]:
+                        if (student_value == true_val):
+                            matched = True
+                            break
+                    if matched:
                         correct_count += 1
+                    else:
+                        print('*****---+++ERROR: output missmatch ' + str(true_outputs[i]) + ' != ' + str(student_outputs[i]))
                 if correct_count == len(true_outputs):
                     print('*****---+++TRUE OUTPUT')
                     student_score += 1
