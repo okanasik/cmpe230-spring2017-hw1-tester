@@ -1,0 +1,8 @@
+myNewVariable = 1000001
+myNewVariable
+mySecondNewVariable = 10000000
+mySecondNewVariable
+myNewVariable = mySecondNewVariable
+myNewVariable
+mySecondNewVariable = 50
+mySecondNewVariable

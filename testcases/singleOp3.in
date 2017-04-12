@@ -1,0 +1,12 @@
+variableO1 = 3525
+variableO1
+variableO1 = variableO1 /24
+variableO1
+variableO2 = 100000 + variableO1
+variableO2
+variableO3 = variableO2 * variableO1
+variableO3
+variableO4 = variableO2 / variableO2
+variableO4
+variableO1 - variableO3
+variableO2 * variableO4

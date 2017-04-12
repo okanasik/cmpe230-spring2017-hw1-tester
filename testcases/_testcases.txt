@@ -1,0 +1,27 @@
+- static assignment
+
+- static assignment with multiple parameters
+
+- operation with single operator
+
+- operation with more than one operator (2,3,4,5)
+
+- single paranthesis operation
+
+- single paranthesis and other operaters mixed
+
+- two single paranthesis
+
+- nested paranthesis (1, 2, 3)
+
+- checking division operator (integer division)
+
+- different variable names with different lengths
+- error handling
+
+
+
+-- we will print also the intermediate results
+
+
+

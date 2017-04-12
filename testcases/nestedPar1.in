@@ -1,0 +1,8 @@
+variableNum1 = 100
+variableNum3 = 42
+variableNum2 = ((variableNum1 + variableNum3) * 18 + 14 ) - 42
+variableNum2
+variableNum4 = ((16 * 23 + 14) / 8 ) - variableNum2
+variableNum4
+variableNum3 = ((variableNum1 + variableNum2)/ 14) + (38 - 46 + variableNum3 * (variableNum4 / 15 - 8)) -21
+variableNum3

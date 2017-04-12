@@ -1,0 +1,13 @@
+myVar1 = 0
+myVar2 = myVar1 + 54 / 2
+myVar2
+myVar3 = 16
+myVar1 = myVar2 * myVar3 - 32 +15
+myVar1
+myVar4 = 21 + myVar2 * 3 + myVar1 - 14 * myVar3 + 70
+myVar4
+myVar3 = myVar3 - 14 + myVar1 * 15 + 42 / myVar1 - 4
+myVar3
+myVar5 = myVar1 + myVar2 + myVar3 + myVar4 * 13
+myVar5
+myVar2 * myVar1 + 20

@@ -1,0 +1,6 @@
+varO1 = 3 + 2543
+varO2 = 65 - 132
+varO3 = varO1*varO2
+varO1
+varO2
+varO3

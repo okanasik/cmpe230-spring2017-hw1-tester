@@ -1,0 +1,7 @@
+varO1 = 20
+varO2 = 10
+varO3 = 25
+varO4 = ((90 + ((varO3*varO2)/13 - (varO1 + varO2*3)) * 48 ) * (varO3 - varO1)) + 100
+varO4
+varO1 = (varO2 - 4) + (varO4 - 100 * (((varO2 * varO1 + 450) / (27 - 14)) - varO4) + varO1 * 25 + (32 - varO2))
+varO1
